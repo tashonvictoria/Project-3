@@ -1,0 +1,8 @@
+slides.forEach((slide, i) => {
+  slide.style.transform = `translateX(${i * 100}%)`;
+  console.log(slides)
+});
+
+let currentSlide = 0;
+let maxSlide = slides.length - 1
+
